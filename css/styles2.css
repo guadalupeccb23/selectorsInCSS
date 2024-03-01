@@ -1,0 +1,73 @@
+/* This is an example of comment */
+
+/* This is an example of element selector */
+body {
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* These are examples of class selector */
+.my-class {
+    color: blue;
+}
+
+.my-font {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.my-class2 {
+    color: green;
+}
+
+.hello {  
+    background-color: aqua;
+}
+
+
+/* This is an example of ID selector */
+#bye {   
+    color: chartreuse;
+}
+
+/* These are examples of Attribute selector */
+a[target] {
+    font-size: xx-large;
+}
+
+a[target="_parent"] {
+    border: 5px dotted green;
+}
+
+/* This is an example of Grouping selector */
+span, li, a[target="_parent"], .my-class2 {
+    background-color: yellow;
+}
+
+/* These are examples of Descendant Selector */
+footer p {
+    font-size: small;
+}
+
+body p {
+    border: 2px solid red;
+}
+
+/* These are examples of Child Selector */
+main > span {
+    font-size: xx-small;
+}
+
+main > ul{
+    font-size: xx-small;
+}
+
+/* This is an example of Adjacent Sibling Selector  */
+header + main {
+    color: blueviolet;
+}
+
+/* This is an example of General Sibling Selector  */
+section ~ p {
+    color: deeppink;
+}
+
