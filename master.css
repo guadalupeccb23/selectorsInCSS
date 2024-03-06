@@ -1,0 +1,136 @@
+/* UNIVERSAL SELECTOR */
+
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* ELEMENT SELECTOR */
+body {
+    background-color: #DEDEDE;
+    color: rgb(2, 2, 68);
+    margin: 0;
+}
+
+/*ID SELECTOR*/
+#link-image{
+    width: 400px;
+    border-radius: 8px;
+    /* the following two properties is to center the image*/
+    display: block;
+    margin: 0 auto;
+}
+
+#link-image2{
+    width: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+
+header section{
+    background-color: #DEDEDE;
+
+}
+
+header{
+    background-color: #05204b;
+    color:white;
+    margin: 0;
+    padding: 10px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+
+nav{
+    border-radius: 8px;
+    padding-top: 0px;
+}
+
+
+
+/*CHILD SELECTOR*/
+nav > ul{
+    list-style-type: none;   /* Eliminate the bullet */
+    text-align: center;      /* Align the unordered list in the center */
+    vertical-align: middle;
+}
+
+/*DESCENDANT SELECTOR*/
+nav li{
+    background-color: cornflowerblue;
+    display: inline-block;
+    width: 250px;
+    text-align: center;
+    border-radius: 8px;
+    height: 25px;
+    
+}
+
+nav a {
+    color: #980404;
+    font-size: larger;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+
+/*
+this child selector is the same than the previous descendant selector*/
+/*nav a{
+    text-decoration: none;
+}*/
+
+/*CLASS SELECTOR*/
+.nav-link {
+    text-decoration: none;
+
+}
+
+section{
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+footer{
+    background-color: #333;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+/* Main Content Styling */
+main {
+    padding: 20px;
+}
+
+
+
+/* Heading Styling */
+h2 {
+    color: #980404 ;
+    font-size: 24px;
+}
+
+h3 {
+    color: #ea4335;
+    font-size: 20px;
+}
+
+/* Paragraph Styling */
+p {
+    line-height: 2.5;
+}
+
+
+/* Link Styling */
+a {
+    color: #2B6CB1;
+    text-decoration: none;
+}
